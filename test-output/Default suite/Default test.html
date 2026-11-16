@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 16 11:16:58 IST 2026</td>
+<td>Started on:</td><td>Mon Nov 16 11:31:25 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8630 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24376 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,7 +78,9 @@ function toggleAllBoxes() {
 <tr>
 <td title='testClass.LoginDataDriven_SauceDemoTest.loginValidation()'><b>loginValidation</b><br>Test class: testClass.LoginDataDriven_SauceDemoTest</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Epic sadface: Username is required!] but found [Epic sadface: Username is required]
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username is required!] but found [No Message displayed]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 	at testClass.LoginDataDriven_SauceDemoTest.loginValidation(LoginDataDriven_SauceDemoTest.java:62)
@@ -108,9 +110,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1588901702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1588901702'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Epic sadface: Username is required!] but found [Epic sadface: Username is required]
+</pre></div><a href='#' onClick='toggleBox("stack-trace235962527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace235962527'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username is required!] but found [No Message displayed]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 	at testClass.LoginDataDriven_SauceDemoTest.loginValidation(LoginDataDriven_SauceDemoTest.java:62)
@@ -141,7 +145,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>5</td>
+<td>20</td>
 <td>testClass.LoginDataDriven_SauceDemoTest@f9b7332</td></tr>
 </table><p>
 </body>

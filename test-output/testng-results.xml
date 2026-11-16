@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-16T11:16:58 IST" name="Default suite" finished-at="2026-11-16T11:17:07 IST" duration-ms="8630">
+  <suite started-at="2026-11-16T11:31:25 IST" name="Default suite" finished-at="2026-11-16T11:31:49 IST" duration-ms="24376">
     <groups>
     </groups>
-    <test started-at="2026-11-16T11:16:58 IST" name="Default test" finished-at="2026-11-16T11:17:07 IST" duration-ms="8630">
+    <test started-at="2026-11-16T11:31:25 IST" name="Default test" finished-at="2026-11-16T11:31:49 IST" duration-ms="24376">
       <class name="testClass.LoginDataDriven_SauceDemoTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:16:58 IST" name="browserSetup" finished-at="2026-11-16T11:17:01 IST" duration-ms="2104" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:31:25 IST" name="browserSetup" finished-at="2026-11-16T11:31:27 IST" duration-ms="2103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:17:01 IST" name="urlLaunch" finished-at="2026-11-16T11:17:01 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:31:27 IST" name="urlLaunch" finished-at="2026-11-16T11:31:28 IST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="loginValidation()[pri:1, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:17:01 IST" name="loginValidation" finished-at="2026-11-16T11:17:06 IST" duration-ms="5240" status="FAIL">
+        <test-method signature="loginValidation()[pri:1, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:31:28 IST" name="loginValidation" finished-at="2026-11-16T11:31:49 IST" duration-ms="20725" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-expected [Epic sadface: Username is required!] but found [Epic sadface: Username is required]]]>
+expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+expected [Epic sadface: Username is required!] but found [No Message displayed]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Epic sadface: Username is required!] but found [Epic sadface: Username is required]
+expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+expected [Epic sadface: Username is required!] but found [No Message displayed]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 at testClass.LoginDataDriven_SauceDemoTest.loginValidation(LoginDataDriven_SauceDemoTest.java:62)
@@ -59,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:17:06 IST" name="tearDown" finished-at="2026-11-16T11:17:07 IST" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginDataDriven_SauceDemoTest@f9b7332]" started-at="2026-11-16T11:31:49 IST" name="tearDown" finished-at="2026-11-16T11:31:49 IST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -9,12 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,630</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,376</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClass.LoginDataDriven_SauceDemoTest</td><td><a href="#m0">loginValidation</a></td><td rowspan="1">1794808021475</td><td rowspan="1">5240</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClass.LoginDataDriven_SauceDemoTest</td><td><a href="#m0">loginValidation</a></td><td rowspan="1">1794808888287</td><td rowspan="1">20725</td></tr></tbody>
 </table>
 <h2>Default test</h2><h3 id="m0">testClass.LoginDataDriven_SauceDemoTest#loginValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	expected [Epic sadface: Username is required!] but found [Epic sadface: Username is required]
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username and password do not match any user in this service] but found [No Message displayed],
+	expected [Epic sadface: Username is required!] but found [No Message displayed]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
 	at testClass.LoginDataDriven_SauceDemoTest.loginValidation(LoginDataDriven_SauceDemoTest.java:62)
